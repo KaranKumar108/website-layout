@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      @media (max-width: 426px) {
+        .header {
+          display: block;
+        }
+        .nav {
+          height: 2em;
+          width: 21em;
+          justify-content: center;
+          align-items: center;
+          margin-left: 20px;
+        }
+        .nav > ul {
+          display: flex;
+          color: white;
+          column-gap: 30px;
+          margin-top: -10px;
+        }
+        ul li {
+          font-size: small;
+          align-items: center;
+          justify-content: center;
+        }
+        .content, .contentSec{
+            display: none;
+        }
+        .lmobilecontent{
+    display: block;
+}
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="logo">
+        <img width="90px" src="./images/logo.png" alt="" />
+      </div>
+      <nav class="nav">
+        <ul>
+          <li>Home</li>
+          <li>Gallery</li>
+          <li>Services</li>
+          <li>Contact</li>
+          <li>About</li>
+        </ul>
+      </nav>
+    </div>
+
+    <section class="banner">BANNER</section>
+    <section class="content">
+      <div class="section1">Section 1</div>
+      <div class="section2">Section 2</div>
+      <div class="section3">Section 3</div>
+    </section>
+    <section class="contentSec">
+      <div class="content1">
+        <h3>Heading1</h3>
+        <hr />
+        laborum eius accusamus molestiae vitae, quam error, omnis atque
+        perspiciatis, voluptate voluptatum eum repellat. Inventore porro nam,
+        laudantium vel incidunt unde distinctio accusamus.
+      </div>
+      <div class="content2">
+        <h3>Heading2</h3>
+        <hr />
+        nulla porro accusamus magni repellat beatae officiis, repellendus
+        adipisci natus magnam perferendis, consequuntur id deserunt error!
+        Voluptates saepe enim eligendi quo alias molestiae.
+      </div>
+      <div class="content3">
+        <h3>Heading3</h3>
+        <hr />
+        debitis voluptatum ipsam at blanditiis amet. Nihil assumenda
+        reprehenderit ducimus! Natus distinctio adipisci illum possimus cum
+        perspiciatis, amet animi facilis minus ut fugiat.
+      </div>
+    </section>
+
+    <!-- content for L mobile -->
+    <section class="lmobilecontent">
+      <div class="section1">Section 1</div>
+      <div class="content1">
+          <h3>Heading1</h3>
+          <hr />
+          laborum eius accusamus molestiae vitae, quam error, omnis atque
+          perspiciatis, voluptate voluptatum eum repellat. Inventore porro nam,
+          laudantium vel incidunt unde distinctio accusamus.
+        </div>
+        <div class="section2">Section 2</div>
+        <div class="content2">
+            <h3>Heading2</h3>
+            <hr />
+            nulla porro accusamus magni repellat beatae officiis, repellendus
+            adipisci natus magnam perferendis, consequuntur id deserunt error!
+            Voluptates saepe enim eligendi quo alias molestiae.
+        </div>
+        <div class="section3">Section 3</div>
+      <div class="content3">
+        <h3>Heading3</h3>
+        <hr />
+        debitis voluptatum ipsam at blanditiis amet. Nihil assumenda
+        reprehenderit ducimus! Natus distinctio adipisci illum possimus cum
+        perspiciatis, amet animi facilis minus ut fugiat.
+      </div>
+    </section>
+  </body>
+</html>
